@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    margin-top: 30px;
+}
+header nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.navbar-left{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.navbar-logo img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar-list ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-list ul li{
+    list-style: none;
+
+}
+
+.navbar-list ul li a{
+text-decoration: none;
+color: #000;
+font-size: 15px;
+font-weight: 600;
+transition: 0.2s;
+}
+
+.navbar-list ul li a:hover{
+    text-decoration: underline;
+    color: #5955b3;
+}
+
+.btn{
+    padding: 6px 20px;
+    background-color: #5955b3;
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    color: #ffffff;
+    transition: 0.2s;
+}
+.btn:hover{
+    color: #5955b3;
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
+section{
+    width: 100%;
+    margin-top: 110px;
+}
+.main{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-context{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-context h1{
+    font-weight: 600;
+    font-size: 62px;
+    letter-spacing: 0.01rem;
+    line-height: 74px;
+    color: #3c2f60;
+}
+.main-context span{
+    color: #5955b3;
+}
+
+.main-context p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+#btn{
+    padding: 12px 25px;
+    transition: none;
+}
+.main-image img{
+    width: 600px;
+}

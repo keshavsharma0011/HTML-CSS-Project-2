@@ -61,6 +61,7 @@ transition: 0.2s;
     display: flex;
     color: #ffffff;
     transition: 0.2s;
+    cursor: pointer;
 }
 .btn:hover{
     color: #5955b3;
